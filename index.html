@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adsl</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="right">
+            <img id="logo" src="./images/logo.png" alt="">
+            <span class="bold">سامانه مدیریت اینترنت مشتریان شرکت مخابرات ایران</span><br>
+            <span class="caption">دارای مجوز به شماره ۱۰۰/۱۱۰۰ از سازمان تنظیم مقررات و ارتباطات رادیویی</span>
+        </div>
+        <div class="left">
+            <button class="menu">ورود به سامانه</button>
+            <button class="menu" id="box">ثبت نام ADSL</button>
+            <button class="menu">نظرسنجی سازمان تنظیم</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p class="bold-2">ورود به سامانه</p>
+            <hr>
+            <div class="box">نام کاربری : شماره تلفن ثابت بهمراه کد شهر بدون صفر</div>
+            <form action="">
+
+                <label for="" class="user">
+                    <input type="text" placeholder="نام کاربری" class="input">
+                    <img src="./svg files/help-circle-outline.svg" alt="" class="svg" id="a">
+                    <img src="./svg files/person-outline.svg" alt="" class="svg" id="b">
+                </label>
+                <label for="" class="password">
+                    <input type="text" placeholder="گذرواژه" class="input">
+                    <img src="./svg files/lock-closed-outline.svg" alt="" class="svg" id="c">
+                </label>
+                <img src="./images/security code.jfif" alt="" class="center">
+                <input type="number" placeholder="کد امنیتی" class="input">
+                <input type="submit" value="ورود به سامانه" id="submit">
+                <hr>
+                <button class="button" id="b1" title="شارژ سریع بدون ورود به پنل کاربری">شارژ سریع</button>
+                <button class="button" id="b2" title="بازیابی کلمه عبور">بازیابی کلمه عبور</button>
+
+            </form>
+        </div>
+        <div class="slide">
+            <div class="btn">
+                <span onclick="next()">
+                    <img src="./Untitled.png" alt="">
+                </span>
+                <span onclick="prev()">
+                    <img src="./Untitled.png" alt="">
+                </span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="end">کلیه حقوق متعلق به <span id="end">شرکت مخابرات ایران </span> می باشد.</p>
+        <img src="./images/logo2.png" alt="">
+    </footer>
+    <div class="test">
+        <img id="img" src="./images/slide.jpg" alt="">
+        <img src="./images/slides1.jpg" alt="">
+        <img src="./images/slides2.jpg" alt="">
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
